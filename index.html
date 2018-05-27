@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="TR"><!--Sayfanın varsayılan dilini belirttik-->
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stil.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<!--Slider-->
+<link rel="stylesheet" href="slider/dist/css/swiper.min.css">
+
+</head>
+<body>
+<div class="kapsayici">
+	<div class="header">
+		<div class="section">
+			<div class="logo"><img src="img/logo.png" alt="Didi"></div>
+			<ul class="menu">
+				<li><a href="index.html" class="aktif">Anasayfa</a></li>
+				<li><a href="#">Ürünler</a></li>
+				<li><a href="hakkimizda.html">Hakkımızda</a></li>
+				<li><a href="#">İletişim</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="clear;"></div>
+	<div class="sliderbox">
+		<div class="slider">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/slider-1.jpg" alt="slide1"></div> 
+				<div class="swiper-slide"><img src="img/slider-2.png" alt="slide2"></div>
+				<div class="swiper-slide"><img src="img/slider-3.png" alt="slide3"></div> 
+			</div>
+					
+	    	<!-- Add Arrows -->
+	    	<div class="swiper-button-next"></div> <!--slider css çektiğin yer hazır bir alan hazır alandan kodu çekiyorsun -->
+	    	<div class="swiper-button-prev"></div>
+    	</div>
+	</div>
+	<div class="clear;"></div>
+	<div class="section bilgi">
+		<h1>MAKARNA ÇEŞİTLERİMİZ</h1>
+		<P>Barilla size şekilleri ve serileri olmak üzere iki ayrı başlıkta seçeneklerini sunar. Şekillerine göre makarnalar: uzun, kısa
+ve dolgulu olmak üzere üçe ayrılırken; serilerine göre makarnalar: klasik, collezione, glutensiz ve tam buğday olmak
+üzere dörde ayrılır. Aşağıda bu türlerden seçmeler görüceksiniz. </p>
+	</div>
+	<div class="section urunler">
+		<img src="img/urun1.jpg" alt="Ürün">
+		<img src="img/urun2.jpg" alt="Ürün">
+		<img src="img/urun3.jpg" alt="Ürün">
+		<img src="img/urun4.jpg" alt="Ürün">
+		<a href="#">TÜM MAKARNA ÇEŞİTLERİNİ GÖRÜN</a>
+	</div>
+	<div class="footer">
+		<div class="section">
+
+			<b>© 2018 BARILLA  / Tüm hakları saklıdır.</b>
+		</div>
+	</div>
+</div>
+
+<!-- Swiper JS -->
+  <script src="slider/dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+<!--  slider dosyaları bitiş-->
+</body>
+</html>
